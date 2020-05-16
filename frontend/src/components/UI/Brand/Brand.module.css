@@ -1,0 +1,9 @@
+.Brand {
+    color:#EDF5E1;
+    font-weight: bold;
+}
+
+.Brand:hover {
+    text-decoration: none;
+    color:#5CDB95;
+}

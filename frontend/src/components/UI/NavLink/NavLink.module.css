@@ -1,0 +1,12 @@
+.Link {
+    color: #EDF5E1;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.Link:hover {
+    color:#5CDB95;
+    text-decoration: none;
+}

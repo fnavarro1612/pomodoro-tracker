@@ -1,0 +1,85 @@
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(92, 219, 149);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+.Timer {
+    margin-top: 80px;
+}
+
+.Button {
+    border: none;
+    margin-left: 20px;
+    background-color: #379683;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-top: 30px;
+    color:#EDF5E1;
+}
+
+
+body:not(.user-is-tabbing) button:focus {
+  outline: none;
+}
+
+.h1 {
+    background-color:#363636;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    color:white;
+}
+
+.Pulse {
+    animation: shadow-pulse 2s infinite;
+    border: none;
+    border-radius: 50%;
+}
+
+.Go {
+    border: 20px solid #5CDB95;
+}
+
+.Pause {
+    border: 20px solid #05386B;
+}
+
+
+@media (max-width: 750px) {
+    .h1 {
+        background-color:#363636;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        border-radius: 10px;
+        padding: 20px;
+        color:white;
+    
+    }
+
+    .Pulse {
+        animation: none;
+        border-radius: 0%;
+    }
+
+    .Button {
+        border: none;
+        margin-left: 20px;
+        background-color: #379683;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin-top: 30px;
+        color:#EDF5E1;
+    }
+
+
+}  

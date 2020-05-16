@@ -1,0 +1,16 @@
+.Global {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    color: #05386B
+}
+
+tr:nth-child(even) {
+background-color: #8EE4AF;
+}
+
+.Header {
+    background-color: #05386B;
+    color: #EDF5E1;
+}

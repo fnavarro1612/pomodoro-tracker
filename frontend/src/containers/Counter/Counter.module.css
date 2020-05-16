@@ -1,0 +1,35 @@
+.Counter {
+    padding-top: 70px;
+}
+
+.Count {
+    background-color: #379683;
+    color: #EDF5E1;
+    width: 30%;
+    margin:auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.P {
+    background-color: #eee;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    color: #05386B;
+}
+
+.Counter h2 {
+    color:#05386B;
+}
+
+@media (max-width: 750px) {
+    .Count {
+        width: 60%;
+    
+    }
+
+    .P {
+        width: 60%;
+    }
+}  

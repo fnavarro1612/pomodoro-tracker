@@ -1,0 +1,18 @@
+.Global {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Button {
+    background-color: #05386B;
+    color: #EDF5E1;
+    padding: 10px;
+    width: 50%;
+    border: 2px solid #05386B;
+    text-decoration: none;
+
+}
+
+.Button:hover {
+    background-color: #5CDB95;
+    border: 2px solid #5CDB95;
+}
